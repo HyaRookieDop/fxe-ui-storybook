@@ -1,0 +1,96 @@
+.grid {
+
+    .semi-row,
+    .semi-row-flex {
+        text-align: center;
+        // padding-bottom: 10px;
+  
+        .semi-col {
+            min-height: 30px;
+            line-height: 30px;
+            background: var(--semi-color-primary-light-default);
+            outline: 1px solid var(--semi-color-primary-light-active);
+        }
+  
+        // .semi-col:nth-child(2n) {
+        //     height: 30px;
+        //     line-height: 30px;
+        //     background: #FFEB99;
+        // }
+    }
+  
+    &.grid-gutter {
+  
+        .semi-col {
+  
+            .gutter-box,
+            .col-content {
+                background: var(--semi-color-primary-light-hover);
+            }
+        }
+    }
+  }
+  
+  .grid-flex {
+  
+    .semi-row-flex {
+        height: 50px;
+        background: var(--semi-color-fill-0);
+    }
+  }
+  
+
+
+  .components-layout-demo {
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    margin: 60px;
+    border-top: 22px solid var(--semi-color-fill-1);
+    border-radius: 5px 5px 0 0;
+    box-shadow: var(--semi-shadow-elevated);
+    color: var(--semi-color-text-1);
+    width: 100%;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -14px;
+        left: 12px;
+        display: block;
+        width: 6px;
+        height: 6px;
+        background-color: rgba(var(--semi-red-4), 1);
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px rgba(var(--semi-red-4), 1), 15px 0 0 2px rgba(var(--semi-yellow-4), 1),
+            30px 0 0 2px rgba(var(--semi-green-4), 1);
+    }
+
+    .semi-layout-content {
+        box-sizing: border-box;
+        height: 300px;
+        line-height: 300px;
+    }
+
+    .semi-layout-header,
+    .semi-layout-footer {
+        box-sizing: border-box;
+        height: 64px;
+        line-height: 64px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background: var(--semi-color-fill-0);
+    }
+
+    .semi-layout-sider {
+        box-sizing: border-box;
+        width: 120px;
+        background: var(--semi-color-fill-2);
+    }
+
+    .semi-layout-sider-children {
+        display: flex;
+        align-items: center;
+        margin: 0 36px;
+    }
+}

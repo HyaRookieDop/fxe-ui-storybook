@@ -2,8 +2,7 @@ import { h } from "vue";
 import { Meta } from "@storybook/vue3";
 import { strings } from "@douyinfe/semi-foundation/checkbox/constants";
 import { Checkbox } from "fxe-semi-ui";
-import CheckboxGroup from "fxe-semi-ui/lib/es/checkbox/CheckboxGroup";
-import { CheckboxGroupProps, CheckboxProps } from "fxe-semi-ui/lib/es/checkbox";
+import { CheckboxGroupProps, CheckboxProps } from "fxe-semi-ui/lib/checkbox";
 
 export default {
   title: "Checkbox",
@@ -43,13 +42,13 @@ export const CheckboxDefault = {
             <Checkbox {...args}>Checkbox 示例</Checkbox>
             <div>
               <p>默认声明Checkbox组</p>
-              <CheckboxGroup>
+              <Checkbox.Group>
                 <Checkbox value="A">A</Checkbox>
                 <Checkbox value="B">B</Checkbox>
                 <Checkbox value="C">C</Checkbox>
                 <Checkbox value="D">D</Checkbox>
                 <Checkbox value="E">E</Checkbox>
-              </CheckboxGroup>
+              </Checkbox.Group>
             </div>
           </div>
         );
@@ -121,7 +120,7 @@ export const ChecboxGroupDefault = {
       },
       render() {
         return (
-          <CheckboxGroup {...args}></CheckboxGroup>
+          <Checkbox.Group {...args}></Checkbox.Group>
         );
       },
     };

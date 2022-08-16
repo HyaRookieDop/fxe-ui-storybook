@@ -1,7 +1,7 @@
 import { strings } from "@douyinfe/semi-foundation/radio/constants";
 import { Meta } from "@storybook/vue3";
 import { Radio } from "fxe-semi-ui";
-import { RadioGroupProps, RadioProps } from "fxe-semi-ui/lib/es/radio";
+import { RadioGroupProps, RadioProps } from "fxe-semi-ui/lib/radio";
 import { h } from "vue";
 
 export default {

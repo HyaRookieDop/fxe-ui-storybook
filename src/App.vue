@@ -1,8 +1,16 @@
+<!--
+ * @Author: hya ilovecoding@foxmail.com
+ * @Date: 2022-08-11 18:35:43
+ * @LastEditors: hya ilovecoding@foxmail.com
+ * @LastEditTime: 2022-08-16 18:24:05
+ * @FilePath: /semi-vue-ui-storybook/src/App.vue
+ * @Description: 
+ * 
+-->
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
-import {example as Example} from "./components/example"
 </script>
 
 <template>

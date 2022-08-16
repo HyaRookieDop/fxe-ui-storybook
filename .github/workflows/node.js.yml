@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm install yarn -g
     - run: yarn
-    - run: yarn build-storybook
+    - run: yarn build-storybook:webpack
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

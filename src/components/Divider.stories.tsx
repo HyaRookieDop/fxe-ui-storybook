@@ -2,8 +2,8 @@
  * @Author: hya ilovecoding@foxmail.com
  * @Date: 2022-08-16 16:20:01
  * @LastEditors: hya ilovecoding@foxmail.com
- * @LastEditTime: 2022-08-16 16:23:16
- * @FilePath: /semi-vue-ui-storybook/Divider.stories.tsx
+ * @LastEditTime: 2022-08-16 19:30:28
+ * @FilePath: /semi-vue-ui-storybook/src/components/Divider.stories.tsx
  * @Description: 
  * 
  */

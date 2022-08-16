@@ -2,7 +2,7 @@ import {Button, ButtonGroup, Space} from "fxe-semi-ui";
 import { strings } from "@douyinfe/semi-foundation/button/constants";
 import { h, VNode } from "vue";
 import { IconCamera, IconSidebar, IconChevronDown } from "fxe-semi-icons";
-import { Type } from "fxe-semi-ui/lib/es/button/Button";
+import { Type } from "fxe-semi-ui/lib/button/Button";
 
 export default {
   title: "Button",

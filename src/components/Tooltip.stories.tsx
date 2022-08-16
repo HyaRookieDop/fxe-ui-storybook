@@ -2,7 +2,7 @@ import { strings } from "@douyinfe/semi-foundation/tooltip/constants";
 import { Meta } from "@storybook/vue3";
 import { h, ref } from "vue";
 import { Button, ButtonGroup, Input, Space, Tooltip } from "fxe-semi-ui";
-import { TooltipProps } from "fxe-semi-ui/lib/es/tooltip/interface";
+import { TooltipProps } from "fxe-semi-ui/lib/tooltip/interface";
 
 export default {
   title: "Tooltip",

@@ -5781,10 +5781,10 @@ fxe-semi-icons@^2.1.0:
     sass "^1.51.0"
     vue "^3.2.25"
 
-fxe-semi-ui@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmmirror.com/fxe-semi-ui/-/fxe-semi-ui-2.1.0.tgz#95b26a6f598a9145b74ed839c1561b97860bf7a8"
-  integrity sha512-RvK+l1IlOu4F6C2UGCv3iAqIsMMajK1x8rIyAm0BfVihYnJyVVoVqH7+YrJZirUh3PymVFirAVavAwXFZpFk+w==
+fxe-semi-ui@2.1.2-alpha.0:
+  version "2.1.2-alpha.0"
+  resolved "https://registry.npmmirror.com/fxe-semi-ui/-/fxe-semi-ui-2.1.2-alpha.0.tgz#96a79a7057173d70c3e904ce17a640819168a04c"
+  integrity sha512-grYF3eLnXMTLELsHSMS99rslKIbLR0oKu4ftw3p0HM5Yr2nrOD0nUM/DJjxRYj6scMQe2BClYKPcpMKVwVSRVg==
   dependencies:
     "@douyinfe/semi-animation" "^2.11.2"
     "@douyinfe/semi-foundation" "^2.11.2"
